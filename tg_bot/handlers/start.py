@@ -6,7 +6,8 @@ def start(bot, update):
     user = add_user(update)
     user.params = ''
     user.save()
-    update.message.reply_text('test')
+    msg = loader.get_template('tg_bot/start.html').render()
+    user.send_message(bot, msg=msg)
 
 
 def add_user(update):
