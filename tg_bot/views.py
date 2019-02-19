@@ -1,8 +1,8 @@
 from django.http import JsonResponse
 import json
 from telegram import Update
-from tg.config import robot
-from tg.config import dp
+from tg_bot.config import robot
+from tg_bot.config import dp
 
 
 def webhooks(request, bot_token):
