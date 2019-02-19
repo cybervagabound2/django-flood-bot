@@ -1,1 +1,1 @@
-# Bot for @django_flood chat made with love
+## Bot for @django_flood chat made with love
